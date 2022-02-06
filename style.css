@@ -1,0 +1,45 @@
+table,td {
+  border: 1px solid black;
+}
+table{
+  border-collapse: collapse;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.container{
+  position: absolute;
+  height: 50%;
+  width: 100%;
+}
+td{
+  height:70px;
+  width: 59px;
+  padding-left: 18px;
+}
+.values{
+  border: 1px solid orange;
+  padding: 5px;
+  background-color: aqua;
+  border-radius: 18px;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 2s;
+}
+.draggable.dragging{
+  opacity: .5;
+} 
+.column li{
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+  padding-bottom: 25px;
+ 
+}
+
+
+ 
+  
